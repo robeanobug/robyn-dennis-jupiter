@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("../img/headshot-blue.jpeg");
+  background-size: contain;
+  background-position: top;
+  width: 100%;
+  color: #ffffff;
+  padding: 70px;
+  text-align: center;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+body {
+  background-color: #ffecbf;
+  color: #ed3419;
+  text-align: left;
+  margin-inline: 0px;
+  font-size: 20px;
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+}
+
+#About h2,
+#Experience h2,
+#Connect h2 {
+  margin-inline: 175px;
+}
+
+#About h2 {
+  margin-top: 70px;
+}
+#Connect h2 {
+  margin-bottom: 20px;
+}
+#About p,
+#Experience ul {
+  color: #1c2e4a;
+  text-align: justify;
+  column-count: 2;
+  column-gap: 60px;
+  font-size: smaller;
+  padding: 20px;
+  margin-inline: 175px;
+}
+#Connect ul {
+  color: #1c2e4a;
+  padding: 0px;
+  margin-inline: 175px;
+  list-style-type: none;
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+}
+.social-icon {
+  justify-content: center;
+  width: 50px;
+  height: auto;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.left-stripe {
+  position: fixed;
+  top: 230px;
+  left: 40px;
+  width: 20px;
+  height: 100%;
+  background-color: #1c2e4a;
+  z-index: 1000;
+}
+.right-stripe {
+  position: fixed;
+  top: 230px;
+  left: 80px;
+  width: 15px;
+  height: 100%;
+  background-color: #1c2e4a;
+  z-index: 1000;
+}
